@@ -15,11 +15,10 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic1.png)
 
   2.2). รันโปรแกรม และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+  
+ <img src="https://github.com/NATAKORNCHA/LAB-05/blob/master/img/LAB5-1.png?raw=true">
+ 
+ 
  2.3). แก้โปรแกรมตามรูปด้านล่างนี้
  
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic2.png)
@@ -27,7 +26,7 @@
  2.4). รันโปรแกรม และบันทึกผลที่ได้
 
 
-
+  <img src="https://github.com/NATAKORNCHA/LAB-05/blob/master/img/LAB5-2.png?raw=true">
 
 
 ###คำถาม 5.1 เครื่องหมาย { }  ในคำสั่ง Console.WriteLine() มีลักษณะการใช้งานอย่างไร
