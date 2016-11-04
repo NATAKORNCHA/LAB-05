@@ -30,23 +30,19 @@
 
 
 ###คำถาม 5.1 เครื่องหมาย { }  ในคำสั่ง Console.WriteLine() มีลักษณะการใช้งานอย่างไร
-#{…} แทนตำแหน่งที่วางข้อมูลโดยใส่เลขลำดับเริ่มจาก 0
+{…} แทนตำแหน่งที่วางข้อมูลโดยใส่เลขลำดับเริ่มจาก 0
 ###คำถาม 5.2  ถ้ามีการใช้ตัวเลขใน { } ที่กระโดด เช่น {0} {2} {3} จะใช้งานได้หรือไม่ อย่างไร จงอธิบาย
-#ใช้งานได้ตำแหน่งที่เราจะแทนด้วยค่าของ object ซึ่งจะเริ่มจาก 0, 1, 2 ไปเรื่อยๆ
-<hr>
-<hr>
-<hr>
+ใช้งานได้ตำแหน่งที่เราจะแทนด้วยค่าของ object ซึ่งจะเริ่มจาก 0, 1, 2 ไปเรื่อยๆ
+
  
  2.5). แก้โปรแกรมตามรูปด้านล่างนี้
 
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic3.png)
 
  2.6). รันโปรแกรม และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+  <img src="https://github.com/NATAKORNCHA/LAB-05/blob/master/img/LAB5-3.png?raw=true">
+
 
 3). ทดลองเรื่องการกำหนดความกว้างของอาร์กิวเมนต์
 
@@ -55,18 +51,12 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic4.png)
 
   3.2). รันโปรแกรม และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+  
+  <img src="https://github.com/NATAKORNCHA/LAB-05/blob/master/img/LAB5-4.png?raw=true">
 
 ###คำถาม 5.3 การกำหนดความกว้างของอาร์กิวเมนต์ด้วยเครื่องหมาย { , }  ในคำสั่ง Console.WriteLine() มีรูปแบบการใช้งานอย่างไร
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+ index เป็นจำนวนเต็มเริ่มต้นที่ศูนย์ใช้สำหรับระบุอาร์กิวเมนต์ที่ต้องการจะจัดรูปแบบเช่น ถ้า index มีค่าเป็น 0 จะหมายถึงค่าของอาร์กิวเมนต์ตัวแรกจะถูกแสดงในตำแหน่งที่ index
+ปรากฏอยู่ และถ้า index มีค่าเป็น 1 จะหมายถึงค่าของอาร์กิวเมนต์ตัวที่สองจะถูกแสดงในตำแหน่งที่ index ปรากฏอยู่เป็นต้น ส่วน alignment เป็นจำนวนเต็มที่ใช้สำหรับระบุความกว้างหรือจำนวนตัวอักษรที่จะแสดงผลพร้อมกับจัดการแสดงผลแบบชิดซ้ายหรือชิดขวา ถ้า alignment มีค่าเป็นลบจะจัดชิดซ้ายและถ้า alignment มีค่าเป็นบวกจะจัดชิดขวา
 
 
 4). ทดลองเรื่องการกำหนดรูปแบบของอาร์กิวเมนต์
@@ -75,18 +65,18 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic5.png)
 
   4.2). รันโปรแกรม และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
 
+ <img src="https://github.com/NATAKORNCHA/LAB-05/blob/master/img/LAB5-5.png?raw=true">
+ 
 5). ทดลองเรื่องการกำหนดรูปแบบพร้อมความกว้างของอาร์กิวเมนต์
   5.1). แก้โปรแกรมตามรูปด้านล่างนี้
  
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic6.png)
 
   5.2). รันโปรแกรม และบันทึกผลที่ได้
+  
+  <img src="https://github.com/NATAKORNCHA/LAB-05/blob/master/img/LAB5-6.png?raw=true">
+
 
 6). ทดลองเรื่องการกำหนดรูปแบบพร้อมความกว้างของทศนิยมของอาร์กิวเมนต์
   6.1). แก้โปรแกรมตามรูปด้านล่างนี้
@@ -94,6 +84,8 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic7.png)
 
   6.2). รันโปรแกรม และบันทึกผลที่ได้
+  
+  <img src="https://github.com/NATAKORNCHA/LAB-05/blob/master/img/LAB5-7.png?raw=true">
 
 ## แบบฝึกหัด จงระบุ output ของบรรทัดคำสั่งต่อไปนี้
 
@@ -118,3 +110,4 @@
           Console.WriteLine("{0}\t{1}\t{2}", i, i*i, i*i*i); 
 15.    Console.WriteLine("{0:#.###}.", 1234.56789);
 ```
+<img src="https://github.com/NATAKORNCHA/LAB-05/blob/master/img/LAB5-8.png?raw=true">
